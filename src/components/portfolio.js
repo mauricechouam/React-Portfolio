@@ -22,35 +22,40 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
+
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://mauricechouam.github.io/COVID-19-Tracker/"  title="Live Demo" target="_blank" >
+                <a href="https://mauricechouam.github.io/COVID-19-Tracker/" title="Live Demo" target="_blank" >
                   <div className="work-img">
                     <img src={stock} alt="Demo live" className="img-fluid" />
                   </div>
-                  </a>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-12">
-                        <h2 className="w-title">COVID-19 TRACKER</h2>
-                        <div className="w-more">
-                          <p className="lead">
-                            A simple COVID-19 tracker application that fetches location based updates, 
-                            trending global news, and helpful local resources.
-                             Powered by HTML, CSS, and JavaScript.
-                          </p>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="row">
+                        <div className="col-12">
+                          <h2 className="w-title">COVID-19 TRACKER</h2>
                         </div>
+                        <a href="https://github.com/mauricechouam/COVID-19-Tracker" title="Repository" target="_blank">
+                          <div className="col-12 w-ctegory w-more">
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Git Repo</h6>
+                          </div>
+                        </a>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                      <div >
+                        <p className="lead">
+                          A simple COVID-19 tracker application that fetches location based updates,
+                          trending global news, and helpful local resources.
+                          Powered by HTML, CSS, and JavaScript.
+                          </p>
                       </div>
                     </div>
                   </div>
-              
-               
+                </div>
+
+
               </div>
             </div>
             <div className="col-md-4">
@@ -78,8 +83,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                
-               
+
+
               </div>
             </div>
             <div className="col-md-4">
@@ -107,7 +112,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-               
+
               </div>
             </div>
             <div className="col-md-4">
@@ -134,7 +139,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-               
+
               </div>
             </div>
             <div className="col-md-4">
@@ -148,7 +153,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">Code-Quiz</h2>
                         <div className="w-more">
-                       <span className="w-ctegory">   <a> MERN  </a></span> 
+                          <span className="w-ctegory">   <a> MERN  </a></span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -159,7 +164,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-               
+
               </div>
             </div>
             <div className="col-md-4">
@@ -186,7 +191,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-               
+
               </div>
             </div>
           </div>
