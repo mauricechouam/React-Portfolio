@@ -81,17 +81,10 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
-        id="mainNav"
-      >
+      <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"  id="mainNav"   >
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
-            <img
-              src={this.state.logo}
-              alt="logo"
-              style={{ maxWidth: "100px" }}
-            />
+            <img  src={this.state.logo}  alt="logo"  style={{ maxWidth: "100px" }} />
           </a>
           <button
             className="navbar-toggler collapsed"

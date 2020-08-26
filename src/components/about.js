@@ -18,7 +18,7 @@ class About extends React.Component {
           id: "ReactJS_skill",
           content: "ReactJS",
           porcentage: "80%",
-          value: "80"
+
         },
         {
           id: "Python_skill",
@@ -43,18 +43,14 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-         " Enthusiastic , Resourceful Current Full Stack Web developer Student , with 6 years of experience in system Administration and IT infraStructure. Ability to establish Priorities and meet challenges head-on. Fluent in systems development,Strong Front and back end Technical Skills, and seeking a position as a Full Stack Web Developer."
+            " Enthusiastic , Resourceful Current Full Stack Web developer Student , with 6 years of experience in system Administration and IT infraStructure. Ability to establish Priorities and meet challenges head-on. Fluent in systems development,Strong Front and back end Technical Skills, and seeking a position as a Full Stack Web Developer."
         },
         {
           id: "second-p-about",
           content:
-        "My Career Goal is to be a software Engineer, That is why i decided to start the Full-Stack Web developer bootcamp program. I Stronglty believe "
+            "My Career Goal is to be a software Engineer, That is why i decided to start the Full-Stack Web developer bootcamp program. I Stronglty believe it will be very helpful ,due to the fact that i will earn some additional programming" +
+            "Skills helping me to be more competitve on the job market. Also those skills are going to help me to be a freelancer "
         },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
       ]
     };
   }
@@ -64,24 +60,31 @@ class About extends React.Component {
       <section id="about" className="about-mf sect-pt4 route">
         <div className="container">
           <div className="row">
-            <div className="col--12">
+            <div className="col-lg-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <div className="row">
-                      <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
-                      >
-                        <div
-                          className="about-img"
-                          style={{ textAlign: "center" }}
-                        >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
+                      <div className="col-sm-6 col-md-5" style={{ margin: "0 auto" }} >
+                        <div className="about-img" style={{ textAlign: "center" }}  >
+                          <img className="img-fluid rounded b-shadow-a" alt="" />
                         </div>
+                      </div>
+                    </div>
+
+                    {/* text starts here */}
+                    <div className="col-md-12">
+                      <div className="about-me pt-9 pt-md-0">
+                        <div className="title-box-2">
+                          <h5 className="title-left">About Me</h5>
+                        </div>
+                        {this.state.about_me.map(content => {
+                          return (
+                            <p className="lead" key={content.id} style={{ textAlign: "center" }}>
+                              {content.content}
+                            </p>
+                          );
+                        })}
                       </div>
                     </div>
                     <div className="skill-mf">
@@ -91,7 +94,7 @@ class About extends React.Component {
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
                             <span className="pull-right">
-                           
+
                             </span>
                             <div className="progress">
                               <div
@@ -104,20 +107,6 @@ class About extends React.Component {
                               ></div>
                             </div>
                           </React.Fragment>
-                        );
-                      })}
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
-                      </div>
-                      {this.state.about_me.map(content => {
-                        return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
                         );
                       })}
                     </div>
