@@ -12,7 +12,7 @@ class About extends React.Component {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
-          value: "90"
+          value: ""
         },
         {
           id: "ReactJS_skill",
@@ -43,12 +43,12 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+         " Enthusiastic , Resourceful Current Full Stack Web developer Student , with 6 years of experience in system Administration and IT infraStructure. Ability to establish Priorities and meet challenges head-on. Fluent in systems development,Strong Front and back end Technical Skills, and seeking a position as a Full Stack Web Developer."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+        "My Career Goal is to be a software Engineer, That is why i decided to start the Full-Stack Web developer bootcamp program. I Stronglty believe "
         },
         {
           id: "third-p-about",
@@ -91,7 +91,7 @@ class About extends React.Component {
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
                             <span className="pull-right">
-                              {skill.porcentage}
+                           
                             </span>
                             <div className="progress">
                               <div
