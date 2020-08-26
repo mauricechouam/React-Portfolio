@@ -24,6 +24,7 @@ class Portfolio extends React.Component {
           </div>
 
           <div className="row">
+
             <div className="col-md-4">
               <div className="work-box">
                 <a href="https://mauricechouam.github.io/COVID-19-Tracker/" title="Live Demo" target="_blank" >
@@ -40,12 +41,12 @@ class Portfolio extends React.Component {
                         </div>
                         <a href="https://github.com/mauricechouam/COVID-19-Tracker" title="Repository" target="_blank">
                           <div className="col-12 w-ctegory w-more">
-                            <h6 className="ion-ios-plus-outline w-ctegory"> Git Repo</h6>
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Git Repository</h6>
                           </div>
                         </a>
                       </div>
                       <div >
-                        <p className="lead">
+                        <p className="subtitle-a">
                           A simple COVID-19 tracker application that fetches location based updates,
                           trending global news, and helpful local resources.
                           Powered by HTML, CSS, and JavaScript.
@@ -54,10 +55,45 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </div>
-
-
               </div>
             </div>
+
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href="https://mauricechouam.github.io/COVID-19-Tracker/" title="Live Demo" target="_blank" >
+                  <div className="work-img">
+                    <img src={stock7} alt="Demo live" className="img-fluid" />
+                  </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="row">
+                        <div className="col-12">
+                          <h2 className="w-title">Emoji-Runner</h2>
+                        </div>
+                        <a href="https://github.com/mauricechouam/COVID-19-Tracker" title="Repository" target="_blank">
+                          <div className="col-12 w-ctegory w-more">
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Git Repository</h6>
+                          </div>
+                        </a>
+                      </div>
+                      <div >
+                        <p className="subtitle-a">
+                        A fun twist on the classic runner game.with secure user login 
+                          User profiles are logged in a database for tracking high scores. Powered by P5JS, Express & MySQL
+
+                           
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-aguadeluz">
@@ -87,34 +123,7 @@ class Portfolio extends React.Component {
 
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
-                  <div className="work-img">
-                    <img src={stock7} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Emoji-Runner</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
-                          </span>
-                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-
-              </div>
-            </div>
+           
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-medlingos">
