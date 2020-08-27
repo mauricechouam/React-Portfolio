@@ -8,30 +8,10 @@ class About extends React.Component {
       skills: [
         { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
         { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: ""
-        },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
+        { id: "JavaScript_skill", content: "JavaScript", porcentage: "90%", value: "" },
+        { id: "ReactJS_skill", content: "React.JS", porcentage: "80%", },
+        { id: "Python_skill", content: "Python", porcentage: "75%", value: "75" },
+        { id: "VanillaJS_skill", content: "VanillaJS", porcentage: "85%", value: "85" },
         {
           id: "Wordpress_skill",
           content: "Wordpress",
@@ -63,9 +43,9 @@ class About extends React.Component {
             <div className="col-lg-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-12">
+                  <div className="col-12">
                     <div className="row">
-                      <div className="col-sm-6 col-md-5" style={{ margin: "0 auto" }} >
+                      <div className="col-sm-6 col-md-5" style={{ margin: "2 auto" }} >
                         <div className="about-img" style={{ textAlign: "center" }}  >
                           <img className="img-fluid rounded b-shadow-a" alt="" />
                         </div>
@@ -80,35 +60,42 @@ class About extends React.Component {
                         </div>
                         {this.state.about_me.map(content => {
                           return (
-                            <p className="lead" key={content.id} style={{ textAlign: "center" }}>
+                            <p className="lead" key={content.id} >
                               {content.content}
                             </p>
                           );
                         })}
                       </div>
                     </div>
-                    <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
-                        return (
-                          <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
+                    
+                    <div>
+                      <h5>Technical Skills</h5>
+                    </div>
+                    <div className="row" >
+                      <div className="col-6" >
+                        <ul className="lead" >
+                          <li >HTML5</li>
+                          <li>CSS3</li>
+                          <li>JavaScript</li>
+                          <li>React.js</li>
+                          <li>JQuery</li>
+                          <li>Bootstrap</li>
+                          <li></li>
 
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.porcentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
-                          </React.Fragment>
-                        );
-                      })}
+                        </ul>
+                      </div>
+                      <div className="col-6">
+                        <ul className="lead">
+                          <li>Node.JS</li>
+                          <li>Express.js</li>
+                          <li>MySQL</li>
+                          <li>MongoDB</li>
+                          <li>Version Control/Git </li>
+                          <li>Responsive Design</li>
+                          <li>Redus Pattern</li>
+                        </ul>
+                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -116,6 +103,8 @@ class About extends React.Component {
             </div>
           </div>
         </div>
+        
+
       </section>
     );
   }
