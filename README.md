@@ -2,6 +2,8 @@
  
 # My Professional PortFolio
 My Personal portfolio created using React. it includes my experience, my accomplishments, my skills, my education, my interests, and my professional goals and objectives
+
+
 ![GitHub](https://img.shields.io/github/repo-size/mauricechouam/React-Portfolio?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/mauricechouam/React-Portfolio?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/mauricechouam/React-Portfolio?style=plastic) [![GitHub license](https://img.shields.io/badge/licence-BSD3.0-green)](https://github.com/mauricechouam/React-Portfolio)
 
 
@@ -28,7 +30,7 @@ My Personal portfolio created using React. it includes my experience, my accompl
 
 ## Screenshots
 
-<img src="https://github.com/mauricechouam/React-Employee-Directory/blob/master/public/img/img.jpg">
+<img src="">
 <br>
 <br>
 
