@@ -3,6 +3,7 @@ import React from "react";
 //import stock
 import stock from "../img/portfolio-1.jpg";
 import stock2 from "../img/portfolio-2.jpg";
+import stock3 from "../img/portfolio-4.jpg";
 import stock6 from "../img/portfolio-3.jpg";
 import stock7 from "../img/emo.jpg";
 
@@ -157,87 +158,73 @@ class Portfolio extends React.Component {
               </div>
             </div>
 
-
-          
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                <a href="https://maurice-employee-directory.herokuapp.com/" title="Live Demo" target="_blank" >
+                  <div className="work-img ">
+                    <img src={stock3} alt="Demo live" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Workout-Tracker</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
-                          </span>
+                </a>
+                <div className="work-content">
+                  <div className="row ">
+                    <div className="col-lg-12">
+                      <div className="row">
+                        <div className="col-12">
+                          <h2 className="w-title">Employee-Directory</h2>
                         </div>
+                        <a href="https://github.com/mauricechouam/React-Employee-Directory" title="Repository" target="_blank">
+                          <div className="col-12 w-ctegory w-more">
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
+                          </div>
+                        </a>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                      <div >
+                        <p className="subtitle-a ">
+                          Web Application where the goal is to make an Employee directory using React.js, 
+                          populating it with random employees from an API, and allowing the user to search/sort the results.
+                          </p>
                       </div>
                     </div>
                   </div>
-                </a>
-
+                </div>
               </div>
             </div>
-            <div className="col-md-4">
+
+            <div className="col-md-4 ">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                <a href="https://maurice-employee-directory.herokuapp.com/" title="Live Demo" target="_blank" >
+                  <div className="work-img ">
+                    <img src={stock3} alt="Demo live" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Code-Quiz</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">   <a> MERN  </a></span>
+                </a>
+                <div className="work-content">
+                  <div className="row ">
+                    <div className="col-lg-12">
+                      <div className="row">
+                        <div className="col-12">
+                          <h2 className="w-title">Employee-Directory</h2>
                         </div>
+                        <a href="https://github.com/mauricechouam/React-Employee-Directory" title="Repository" target="_blank">
+                          <div className="col-12 w-ctegory w-more">
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
+                          </div>
+                        </a>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                      <div >
+                        <p className="subtitle-a ">
+                       MVC  application that allows User to create burgers (POST), 
+                          view a list of burgers available to eat (GET), devour burgers (PUT), and throw them away after devoured (DELETE).
+                          </p>
                       </div>
                     </div>
                   </div>
-                </a>
-
+                </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Employee-Directory</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
 
-              </div>
-            </div>
+            
+            
+            
           </div>
         </div>
       </section>
