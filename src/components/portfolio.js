@@ -60,7 +60,7 @@ class Portfolio extends React.Component {
 
             <div className="col-md-4">
               <div className="work-box"> 
-                <a href="https://mauricechouam.github.io/COVID-19-Tracker/" title="Live Demo" target="_blank" >
+                <a href="https://emoji-runner.herokuapp.com/" title="Live Demo" target="_blank" >
                   <div className="work-img">
                     <img src={stock7} alt="Demo live" className="img-fluid" />
                   </div>
@@ -72,7 +72,7 @@ class Portfolio extends React.Component {
                         <div className="col-12">
                           <h2 className="w-title">Emoji-Runner</h2>
                         </div>
-                        <a href="https://github.com/mauricechouam/COVID-19-Tracker"  title="Repository"  target="_blank" >
+                        <a href="https://github.com/mauricechouam/Emoji-Runner"  title="Repository"  target="_blank" >
                           <div className="col-12 w-ctegory w-more">
                             <h6 className="ion-ios-plus-outline w-ctegory"> Git Repository</h6>
                           </div>
