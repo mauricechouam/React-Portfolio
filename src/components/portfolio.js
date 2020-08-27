@@ -4,6 +4,7 @@ import React from "react";
 import stock from "../img/portfolio-1.jpg";
 import stock2 from "../img/portfolio-2.jpg";
 import stock3 from "../img/portfolio-4.jpg";
+import stock5 from "../img/portfolio-5.jpg";
 import stock6 from "../img/portfolio-3.jpg";
 import stock7 from "../img/emo.jpg";
 
@@ -192,9 +193,9 @@ class Portfolio extends React.Component {
 
             <div className="col-md-4 ">
               <div className="work-box">
-                <a href="https://maurice-employee-directory.herokuapp.com/" title="Live Demo" target="_blank" >
+                <a href="https://maurice-burger.herokuapp.com/" title="Live Demo" target="_blank" >
                   <div className="work-img ">
-                    <img src={stock3} alt="Demo live" className="img-fluid" />
+                    <img src={stock5} alt="Demo live" className="img-fluid" />
                   </div>
                 </a>
                 <div className="work-content">
@@ -202,9 +203,9 @@ class Portfolio extends React.Component {
                     <div className="col-lg-12">
                       <div className="row">
                         <div className="col-12">
-                          <h2 className="w-title">Employee-Directory</h2>
+                          <h2 className="w-title">Burger Restaurant </h2>
                         </div>
-                        <a href="https://github.com/mauricechouam/React-Employee-Directory" title="Repository" target="_blank">
+                        <a href="https://github.com/mauricechouam/Burger" title="Repository" target="_blank">
                           <div className="col-12 w-ctegory w-more">
                             <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
                           </div>
@@ -221,10 +222,6 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </div>
-
-            
-            
-            
           </div>
         </div>
       </section>
