@@ -60,7 +60,7 @@ class About extends React.Component {
                         </div>
                         {this.state.about_me.map(content => {
                           return (
-                            <p className="lead" key={content.id} >
+                            <p className="subtitle-a" key={content.id} >
                               {content.content}
                             </p>
                           );
@@ -80,13 +80,13 @@ class About extends React.Component {
                           <li>React.js</li>
                           <li>JQuery</li>
                           <li>Bootstrap</li>
-                          <li></li>
+                          <li>MVC, ORM, OOP</li>
 
                         </ul>
                       </div>
                       <div className="col-6">
                         <ul className="lead">
-                          <li>Node.JS</li>
+                          <li>Node.js</li>
                           <li>Express.js</li>
                           <li>MySQL</li>
                           <li>MongoDB</li>

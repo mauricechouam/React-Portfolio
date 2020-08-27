@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
 //import stock
@@ -18,8 +19,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Project</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  
                 </p>
                 <div className="line-mf"></div>
               </div>
