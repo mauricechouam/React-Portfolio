@@ -2,6 +2,7 @@ import React from "react";
 
 //import stock
 import stock from "../img/portfolio-1.jpg";
+import stock2 from "../img/portfolio-2.jpg";
 import stock6 from "../img/portfolio-3.jpg";
 import stock7 from "../img/emo.jpg";
 
@@ -121,6 +122,41 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </div>
+
+            <div className="col-md-4 ">
+              <div className="work-box">
+                <a href="https://workoutracker-maurice.herokuapp.com/" title="Live Demo" target="_blank" >
+                  <div className="work-img ">
+                    <img src={stock2} alt="Demo live" className="img-fluid" />
+                  </div>
+                </a>
+                <div className="work-content">
+                  <div className="row ">
+                    <div className="col-lg-12">
+                      <div className="row">
+                        <div className="col-12">
+                          <h2 className="w-title">Workout-Tracker</h2>
+                        </div>
+                        <a href="https://github.com/mauricechouam/Workout-Tracker" title="Repository" target="_blank">
+                          <div className="col-12 w-ctegory w-more">
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
+                          </div>
+                        </a>
+                      </div>
+                      <div >
+                        <p className="subtitle-a ">
+                      
+                          Web Application Allowing user to view create and track his daily workouts .
+                          User should be able to track the name, type, weight, sets, reps, and duration of exercise.
+                        
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
           
             <div className="col-md-4">
