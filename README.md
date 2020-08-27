@@ -30,7 +30,7 @@ My Personal portfolio created using React. it includes my experience, my accompl
 
 ## Screenshots
 
-<img src="">
+<img src="https://github.com/mauricechouam/React-Portfolio/blob/master/src/img/img1.jpg">
 <br>
 <br>
 
