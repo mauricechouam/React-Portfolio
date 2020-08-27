@@ -11,9 +11,9 @@ class Portfolio extends React.Component {
       <section id="work" className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12">
+            <div className="col-12">
               <div className="title-box text-center">
-                <h3 className="title-a">Portfolio</h3>
+                <h3 className="title-a">Project</h3>
                 <p className="subtitle-a">
                   Incididunt nostrud id aute culpa excepteur pariatur consequat
                   elit culpa nulla enim anim incididunt.
@@ -24,16 +24,15 @@ class Portfolio extends React.Component {
           </div>
 
           <div className="row">
-
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <div className="work-box">
                 <a href="https://mauricechouam.github.io/COVID-19-Tracker/" title="Live Demo" target="_blank" >
-                  <div className="work-img">
+                  <div className="work-img ">
                     <img src={stock} alt="Demo live" className="img-fluid" />
                   </div>
                 </a>
                 <div className="work-content">
-                  <div className="row">
+                  <div className="row ">
                     <div className="col-lg-12">
                       <div className="row">
                         <div className="col-12">
@@ -41,12 +40,12 @@ class Portfolio extends React.Component {
                         </div>
                         <a href="https://github.com/mauricechouam/COVID-19-Tracker" title="Repository" target="_blank">
                           <div className="col-12 w-ctegory w-more">
-                            <h6 className="ion-ios-plus-outline w-ctegory"> Git Repository</h6>
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
                           </div>
                         </a>
                       </div>
                       <div >
-                        <p className="subtitle-a">
+                        <p className="subtitle-a ">
                           A simple COVID-19 tracker application that fetches location based updates,
                           trending global news, and helpful local resources.
                           Powered by HTML, CSS, and JavaScript.
@@ -60,7 +59,7 @@ class Portfolio extends React.Component {
 
 
             <div className="col-md-4">
-              <div className="work-box">
+              <div className="work-box"> 
                 <a href="https://mauricechouam.github.io/COVID-19-Tracker/" title="Live Demo" target="_blank" >
                   <div className="work-img">
                     <img src={stock7} alt="Demo live" className="img-fluid" />
@@ -68,7 +67,7 @@ class Portfolio extends React.Component {
                 </a>
                 <div className="work-content">
                   <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-12">
                       <div className="row">
                         <div className="col-12">
                           <h2 className="w-title">Emoji-Runner</h2>
@@ -80,11 +79,10 @@ class Portfolio extends React.Component {
                         </a>
                       </div>
                       <div >
-                        <p className="subtitle-a">
+                        <p className="subtitle-a ">
                         A fun twist on the classic runner game.with secure user login 
                           User profiles are logged in a database for tracking high scores. Powered by P5JS, Express & MySQL
 
-                           
                           </p>
                       </div>
                     </div>
@@ -93,35 +91,38 @@ class Portfolio extends React.Component {
               </div>
             </div>
 
-            
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
-                  <div className="work-img">
-                    <img src={stock6} alt="" className="img-fluid" />
+                <a href="https://mauricechouam.github.io/Weather-Dashboard/" title="Live Demo" target="_blank" >
+                  <div className="work-img ">
+                    <img src={stock6} alt="Demo live" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Weather-Dashboard</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
-                          </span>{" "}
+                </a>
+                <div className="work-content">
+                  <div className="row ">
+                    <div className="col-lg-12">
+                      <div className="row">
+                        <div className="col-12">
+                          <h2 className="w-title">Weather-Dashboard</h2>
                         </div>
+                        <a href="https://github.com/mauricechouam/Weather-Dashboard" title="Repository" target="_blank">
+                          <div className="col-12 w-ctegory w-more">
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
+                          </div>
+                        </a>
                       </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                      <div >
+                        <p className="subtitle-a ">
+                        A weather dashboard with search functionality to find current weather conditions and the future weather outlook for multiple cities.
+                          </p>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
-           
+
+          
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-medlingos">

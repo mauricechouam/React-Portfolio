@@ -23,7 +23,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            " Enthusiastic , Resourceful Current Full Stack Web developer Student , with 6 years of experience in system Administration and IT infraStructure. Ability to establish Priorities and meet challenges head-on. Fluent in systems development,Strong Front and back end Technical Skills, and seeking a position as a Full Stack Web Developer."
+            " Enthusiastic , Resourceful Current Full Stack Web developer Student , with 6 years of experience in system Administration and IT infraStructure. Ability to establish Priorities and meet challenges head-on. Fluent in systems development,Strong Front-End and Back-End Technical Skills, and seeking a position as a Full Stack Web Developer."
         },
         {
           id: "second-p-about",
