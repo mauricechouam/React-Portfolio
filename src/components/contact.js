@@ -98,7 +98,7 @@ class Contact extends React.Component {
                         </form>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 contact">
                       <div className="title-box-2 pt-4 pt-md-0">
                         <h5 className="title-left">Get in Touch</h5>
                       </div>
@@ -110,11 +110,11 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the from and send me an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                         <ul class="list-ico">
+                                <li><span class="ion-ios-location"></span> Sacramento, CA 95820</li>
+                                <li><span class="ion-ios-telephone"></span> (916) 912-1555</li>
+                                <li><span class="ion-email"></span> lansichouamou@gmail.com</li>
+                                </ul> 
                       </div>
                       <div className="socials">
                         <ul>
@@ -149,18 +149,8 @@ class Contact extends React.Component {
                           </li>
 
                         </ul>
-
                       </div>
-
-                  
-                        <i className="ion-email"> <p>lansichouamou@gmail.com </p></i>
-                  
-
-                      <div className="phone">
-                        <i className="ion-phone"></i>
-                        <h4>Call:</h4>
-                        <p>+1 916 912 1555</p>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -168,6 +158,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
+
         <footer>
           <div className="container">
             <div className="row">
@@ -181,7 +172,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </footer>
-      </section>
+      </section >
     );
   }
 }

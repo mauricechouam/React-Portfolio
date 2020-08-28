@@ -77,7 +77,7 @@ class Portfolio extends React.Component {
                         </div>
                         <a href="https://github.com/mauricechouam/Emoji-Runner"  title="Repository"  target="_blank" >
                           <div className="col-12 w-ctegory w-more">
-                            <h6 className="ion-ios-plus-outline w-ctegory"> Git Repository</h6>
+                            <h6 className="ion-ios-plus-outline w-ctegory"> Github Repository</h6>
                           </div>
                         </a>
                       </div>
