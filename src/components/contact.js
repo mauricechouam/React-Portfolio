@@ -141,17 +141,25 @@ class Contact extends React.Component {
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="https://www.linkedin.com/in/mauricechouamou/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
+                            <a href="https://www.linkedin.com/in/mauricechouamou/" target="_blank" rel="noopener noreferrer"   >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
                               </span>
                             </a>
                           </li>
+
                         </ul>
+
+                      </div>
+
+                  
+                        <i className="ion-email"> <p>lansichouamou@gmail.com </p></i>
+                  
+
+                      <div className="phone">
+                        <i className="ion-phone"></i>
+                        <h4>Call:</h4>
+                        <p>+1 916 912 1555</p>
                       </div>
                     </div>
                   </div>
@@ -165,6 +173,9 @@ class Contact extends React.Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="copyright-box">
+                  <div class="copyright">
+                    &copy; Copyright Made From Scratch By <strong><span>Maurice</span></strong>.
+                </div>
                 </div>
               </div>
             </div>
