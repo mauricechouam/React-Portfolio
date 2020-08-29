@@ -147,6 +147,13 @@ class Contact extends React.Component {
                               </span>
                             </a>
                           </li>
+                          <li>
+                            <a href="https://www.instagram.com/nixonchouam/?hl=en" target="_blank" rel="noopener noreferrer"   >
+                              <span className="ico-circle">
+                                <i className="ion-social-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
 
                         </ul>
                       </div>
