@@ -23,8 +23,10 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            " Experienced coding bootcamp graduate with extensive background in MERN (MongoDB, Express, React, Node)  , developing mobile applications, and building websites from the ground up.Specializes in JavaScript and Python.Professional strengths include creative problem- solving, written and verbal communication " +
-        "and time management.Detail - oriented mindset from 6 + years of experience in System Administration and IT infrastructure"
+            " Experienced coding bootcamp graduate with extremely strong foundational skills in JavaScript,MERN (MongoDB, Express, ReactJS, NodeJS), developing mobile applications, and building websites from the ground up. " + 
+             " Whether front- end layout & design, back - end efficiency & functionality. "+ 
+            + " Professional strengths include creative problem-solving " +
+        " and time management. Detail-oriented mindset from 6 + years of experience in System Administration and IT infrastructure"
         },
         {
           id: "second-p-about",
@@ -75,26 +77,29 @@ class About extends React.Component {
                     </div>
                     <div className="row" >
                       <div className="col-6" >
-                        <ul className="lead" > Front-End
+                        <ul className="lead" > 
                           <li >HTML5</li>
                           <li>CSS3</li>
                           <li>JavaScript</li>
                           <li>React.js</li>
                           <li>JQuery</li>
                           <li>Bootstrap</li>
-                          <li>MVC, ORM, OOP</li>
+                          <li>Node.js</li>
+                          <li>Express.js</li>
+                         
 
                         </ul>
                       </div>
                       <div className="col-6">
                         <ul className="lead">
-                          <li>Node.js</li>
-                          <li>Express.js</li>
                           <li>MySQL</li>
                           <li>MongoDB</li>
+                          <li>Heroku</li>
+                          <li>AWS (Amazon Web Services)</li>
                           <li>Version Control/Git </li>
                           <li>Responsive Design</li>
                           <li>Redus Pattern</li>
+                          <li>MVC, ORM, OOP</li>
                         </ul>
                       </div>
 
