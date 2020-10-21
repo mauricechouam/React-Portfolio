@@ -23,7 +23,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            " Experienced coding bootcamp graduate with extensive background in MERN (MongoDB, Express, React, Node)  , developing mobile applications, and building websites from the ground up.Specializes in JavaScript and Python.Professional strengths include creative problem- solving, written and verbal communication" +
+            " Experienced coding bootcamp graduate with extensive background in MERN (MongoDB, Express, React, Node)  , developing mobile applications, and building websites from the ground up.Specializes in JavaScript and Python.Professional strengths include creative problem- solving, written and verbal communication " +
         "and time management.Detail - oriented mindset from 6 + years of experience in System Administration and IT infrastructure"
         },
         {
@@ -71,11 +71,11 @@ class About extends React.Component {
                     </div>
                     
                     <div>
-                      <h5>Technical Skills</h5>
+                      <h5> Skills</h5>
                     </div>
                     <div className="row" >
                       <div className="col-6" >
-                        <ul className="lead" >
+                        <ul className="lead" > Front-End
                           <li >HTML5</li>
                           <li>CSS3</li>
                           <li>JavaScript</li>
