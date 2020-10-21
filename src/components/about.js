@@ -6,8 +6,8 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "Front-end:", content: " HTML5, CSS3, React.js, Material Design,Bootstrap", porcentage: "80%" },
+        { id: "Frameworks", content: "Frameworks: Javascript (NodeJS, ReactJS, jQuery)", porcentage: "75%" },
         { id: "JavaScript_skill", content: "JavaScript", porcentage: "90%", value: "" },
         { id: "ReactJS_skill", content: "React.JS", porcentage: "80%", },
         { id: "Python_skill", content: "Python", porcentage: "75%", value: "75" },
@@ -23,13 +23,15 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            " Enthusiastic , Resourceful Current Full Stack Web developer Student , with 6 years of experience in system Administration and IT infraStructure. Ability to establish Priorities and meet challenges head-on. Fluent in systems development,Strong Front-End and Back-End Technical Skills, and seeking a position as a Full Stack Web Developer."
+            " Experienced coding bootcamp graduate with extensive background in MERN (MongoDB, Express, React, Node)  , developing mobile applications, and building websites from the ground up.Specializes in JavaScript and Python.Professional strengths include creative problem- solving, written and verbal communication" +
+        "and time management.Detail - oriented mindset from 6 + years of experience in System Administration and IT infrastructure"
         },
         {
           id: "second-p-about",
           content:
-            "My Career Goal is to be a software Engineer, That is why i decided to start the Full-Stack Web developer bootcamp program. I Stronglty believe it will be very helpful ,due to the fact that i will earn some additional programming" +
-            "Skills helping me to be more competitve on the job market. Also those skills are going to help me to be a freelancer "
+            "I am a full- stack developer, which means that I work on projects from the "+
+          "front end to the back end.I design and build website and app experiences as well as the database and server infrastructures that power them"
+           
         },
       ]
     };
